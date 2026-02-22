@@ -1,0 +1,95 @@
+/* Page background */
+body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #eef2ff, #f8fafc);
+    margin: 0;
+}
+
+/* Form Card */
+.container {
+    width: 420px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+/* Title */
+h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2d3748;
+    letter-spacing: 0.5px;
+}
+
+/* Input spacing */
+.input-group{
+    margin-bottom: 22px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #34495e;
+}
+
+/* Inputs */
+input{
+    width:100%;
+    padding:12px;
+    border: 1px solid #d6dbe3;
+    border-radius: 10px;
+    outline: none;
+    background: #f9fbff;
+    transition: all 0.25s ease;
+    box-sizing: border-box;
+}
+
+/* Focus effect (when user clicks input) */
+input:focus{
+    border-color: #6c8cff;
+    background: #ffffff;
+    box-shadow: 0 0 0 4px rgba(108,140,255,0.15);
+}
+
+/* Placeholder text */
+::placeholder{
+    color:#9aa4b2;
+    font-size:14px;
+}
+
+/* Error text */
+.error{
+    color: #e05a5a;
+    font-size: 12px;
+    margin-top: 5px;
+    display:block;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 13px;
+    background: linear-gradient(135deg, #4f8cff, #38b2ac);
+    border:none;
+    color:white;
+    border-radius: 12px;
+    cursor:pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.25s ease;
+}
+
+/* Button hover */
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(79,140,255,0.35);
+}
+
+/* Button click */
+button:active{
+    transform: scale(0.98);
+}
